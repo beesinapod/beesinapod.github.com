@@ -1,0 +1,15 @@
+---
+layout: base
+title: Bees in a Pod
+---
+
+{% for post in site.posts limit:3 %}
+    <section class="post">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <span>{{ post.date | date_to_string }}</span>
+        {% if post.main_pic %}
+        <img src="{{ post.main_pic }}">
+        {% endif %}
+        <p>{{post.description}}</p>
+    </section>
+{% endfor %}
