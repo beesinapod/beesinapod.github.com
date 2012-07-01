@@ -42,4 +42,4 @@ section#content .ingredients{width:300px;float:right;}
 section#content .main{width:600px;float:left;}
 section#content a{text-decoration:underline;}
 .scroller-thumbs li{display:inline-block;width:112px;height:84px;overflow:hidden;padding-right:4px;}.scroller-thumbs li img{width:120px;}
-.index-listing{width:600px;}
+.index-listing{width:600px;}.index-listing .date{display:block;padding-bottom:5px;}
