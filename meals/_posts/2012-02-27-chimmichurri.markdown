@@ -5,18 +5,31 @@ description: Here is a description for this
 main_pic:
 elements:
 - |
-    ### Steak
-    * Steak
-    * Vinegar
-    * Onion
+    ### Chimmichurri Steak
+    * Skirt steak (1 &frac14; lb)
+    * Balsamic vinegar (about 100ml)
+    * Echalion shallot
+    * Half red chilli, diced, incl. seeds
+    * Coriander (handful)
+    * Marjoram
+    * Garlic (four cloves)
+    * Sea salt, black pepper
 - |
     ### Potato Salad
-    * Potato
-    * Mayo
+    * Charlotte potatoes
+    * Echalion shallot
+    * Dollop of mayonnaise
+    * Dollop of sour cream
+    * Sea salt, black pepper
+    
 - |
     ### Salad
-    * Romaine
-    * Tomato
+    * Romaine lettuce
+    * Rocket
+    * Meli melo tomatoes
+    * Olive oil
+    * Lime
+    * Sea salt, black pepper
 date: 2012-05-20
 published: true
 ---
