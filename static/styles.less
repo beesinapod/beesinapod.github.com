@@ -8,20 +8,19 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 //clearfix
 
-/* For modern browsers */
-.cf:before,
-.cf:after {
-    content:"";
-    display:table;
-}
-
-.cf:after {
-    clear:both;
-}
-
-/* For IE 6/7 (trigger hasLayout) */
 .cf {
     *zoom:1;
+
+    &:after {
+        clear:both;
+        content:"";
+        display:table;
+    }
+
+    &:before {
+        content:"";
+        display:table;
+    }
 }
 
 //colours
@@ -111,6 +110,8 @@ section#content {
 }
 
 footer {
+    .cf;
+
     .about-us {
         float: right;
         width: 440px;
@@ -127,6 +128,8 @@ footer {
 // recipes
 
 section#content {
+    .cf;
+
     .ing-fixed {
         position: fixed;
         top: 10px;
@@ -137,10 +140,8 @@ section#content {
         float: right;
     }
 
-    .title { 
-        width: 600px;
-    }
     .main {
         width: 600px;
+        float: left;
     }
 }

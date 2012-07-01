@@ -2,5 +2,13 @@
 layout: base
 ---
 
+<section class="main">
 <h2 class="title">{{ page.title }}</h2>
 {{ content }}
+</section>
+
+<section class="ingredients">
+    {% for element in page.elements %}
+        {{ element | markdownify }}
+    {% endfor %}
+</section>
