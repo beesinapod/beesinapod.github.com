@@ -18,7 +18,7 @@ elements:
     * Romaine
     * Tomato
 date: 2012-05-20
-published: false
+published: true
 ---
 **Juliet**: After a typical summer day in Oxford involving park walks, sun, bursts of rather violent rain, and a few pints, we wanted to have a suitably matching summer dinner.
 
