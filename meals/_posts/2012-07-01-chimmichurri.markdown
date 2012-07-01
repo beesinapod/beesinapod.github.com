@@ -30,7 +30,7 @@ elements:
     * Olive oil
     * Lime
     * Sea salt, black pepper
-date: 2012-05-20
+date: 2012-07-01
 published: true
 ---
 **Juliet**: After a typical summer day in Oxford involving park walks, sun, bursts of rather violent rain, and a few pints, we wanted to have a suitably matching summer dinner.
