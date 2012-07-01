@@ -11,7 +11,8 @@ title: Bees in a Pod
         {% if post.main_pic %}
         <img src="{{ post.main_pic }}">
         {% endif %}
-        <p>{{post.content}}</p>
+        {{post.description | markdownify }}
+        <a href="{{ post.url }}">Read more...</a>
     </section>
 </section>
 {% endfor %}

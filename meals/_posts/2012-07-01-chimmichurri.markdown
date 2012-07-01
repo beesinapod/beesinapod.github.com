@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Chimmichurri Steak
-description: Here is a description for this
+description: |
+    Skirt steak with chimmichurri, accompanied by potato salad and a leafy salad.
 main_pic: /images/chimmichurri/chimmichurri-wide.JPG
 elements:
 - |
