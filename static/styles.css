@@ -37,3 +37,4 @@ section#content:before{content:"";display:table;}
 section#content .ing-fixed{position:fixed;top:10px;margin-left:640px;}
 section#content .ingredients{width:300px;float:right;}
 section#content .main{width:600px;float:left;}
+.index-listing{width:600px;}

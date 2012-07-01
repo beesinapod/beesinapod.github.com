@@ -4,6 +4,7 @@ title: Bees in a Pod
 ---
 
 {% for post in site.posts limit:3 %}
+<section class="index-listing">
     <section class="post">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <span>{{ post.date | date_to_string }}</span>
@@ -12,4 +13,5 @@ title: Bees in a Pod
         {% endif %}
         <p>{{post.content}}</p>
     </section>
+</section>
 {% endfor %}
