@@ -38,6 +38,8 @@ published: false
 
 ### Chimmichurri Steak
 
-**Matt**: OK, so the eagle eyed amongst you will have noticed that this isn't a real chimmichurri, because we didn't use parsley. This may have been down to us forgetting which herb we were supposed to use, but I stand by the decision - the citrusy coriander mixes in really nicely with the vinegar and onion. But anyway, here's what we did for a pound and a half of steak.
+**Matt**: First up is to make the chimmichurri, and the eagle eyed amongst you may have noticed that this isn't a real chimmichurri, because we didn't use parsley. This may have been down to us forgetting which herb we were supposed to use, but I stand by the decision - the citrusy coriander mixes in really nicely with the vinegar and onion. But anyway, here's what we did for a pound and a half of steak:
 
 Start with the other half of your finely diced shallot. We used [echalion shallots](http://www.ukshallot.com/echalion.html) for pretty much everything we ever use onion for - in terms of taste, they're basically the perfect mixture of onion and shallots (and much easier to peel than shallots too, which is nice). Add a nice handful of finely diced coriander, too.
+
+**Juliet
