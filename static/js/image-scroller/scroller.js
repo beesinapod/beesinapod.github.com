@@ -32,13 +32,13 @@ $(document).ready(function() {
         .hide()
     )
     .append($($('<div class="scroller-lightbox"></div>')
-        .hide()
         .append($('<div class="scroller-lightbox-close-button"></div>')
             .click(function () {
                 hideLightbox();
             })
         )
         .append($('<div class="image"></div>'))
+        .hide()
     ));
 
     var images = findImagesInLists();

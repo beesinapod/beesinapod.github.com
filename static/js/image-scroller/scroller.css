@@ -17,21 +17,19 @@
 
 .scroller-lightbox {
     position: fixed;
-    background: black; 
     top: 50%;
     left: 50%;
     width: 400px;
-    height: 300px;
-    margin: -150px 0 0 -200px;  
+    margin: -250px 0 0 -200px;  
     padding: 0;  
-    z-index: 55; 
+    z-index: 55;
 }
 
 .scroller-lightbox-close-button {
     position: absolute;
     right: 0;
     top: 0;
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
     background: url('/static/js/image-scroller/img/close-button.png') no-repeat;
 }
