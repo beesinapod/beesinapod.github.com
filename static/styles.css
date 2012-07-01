@@ -22,6 +22,8 @@ h3{font-family:Futura-Medium,Futura W01 Medium,Futura,Arial,Sans-Serif;font-size
 h4{font-family:Futura-Medium,Futura W01 Medium,Futura,Arial,Sans-Serif;font-size:1.2em;padding-top:10px;}
 p{padding-top:10px;}
 a{color:#f2f2f2;text-decoration:none;}
+em{font-style:italic;}
+strong{font-weight:bold;}
 header{background-color:#f2f2f2;color:#1c1c1c;}header a{color:#1c1c1c;}
 footer{background-color:#f2f2f2;color:#1c1c1c;}footer a{color:#1c1c1c;}
 header div{width:960px;margin:auto;}header div h1{padding:10px;}
