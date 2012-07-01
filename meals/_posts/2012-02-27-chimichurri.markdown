@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tasty tasty
+title: Chimmichurri Steak
 description: Here is a description for this
 main_pic:
 elements:
