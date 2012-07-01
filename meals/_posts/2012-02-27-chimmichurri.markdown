@@ -65,7 +65,7 @@ Slap the steak down into the pan. We followed the [Heston approach](http://www.c
 
 **Juliet**: The wine, and also the salad. This was simple; just romaine lettuce, rocket and some lovely little red and orange tomatoes. For the dressing, I added just a little olive oil and the lime that we didn't need for the chimmichurri. and salt and pepper. 
 
-##Overall
+### Overall
 
 **Juliet**: It was delicious. There was complete silence when we sat down to eat, because we were both too busy stuffing food into our mouths to comment on how good it was. 
 
