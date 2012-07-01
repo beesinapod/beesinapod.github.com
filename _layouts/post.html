@@ -4,6 +4,9 @@ layout: base
 
 <section class="main">
 <h2 class="title">{{ page.title }}</h2>
+{% if page.main_pic %}
+    <img src="{{ page.main_pic }}" alt="{{ page.title }}">
+{% endif %}
 {{ content }}
 </section>
 

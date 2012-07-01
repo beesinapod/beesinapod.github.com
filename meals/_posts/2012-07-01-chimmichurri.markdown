@@ -2,7 +2,7 @@
 layout: post
 title: Chimmichurri Steak
 description: Here is a description for this
-main_pic:
+main_pic: /images/chimmichurri/chimmichurri-wide.JPG
 elements:
 - |
     ### Chimmichurri Steak
@@ -43,6 +43,10 @@ published: true
 
 ### Potato Salad
 
+* ![Boiling potatoes](/images/chimmichurri/boiling-potatoes.JPG)
+* ![Forkable potato](/images/chimmichurri/forkable-potato.JPG)
+* ![Potato salad](/images/chimmichurri/potato-salad.JPG)
+
 **Matt**: You can do this as far ahead of time as you like, but I think it's best to boil the potatoes just before you cook everything else - a bit of warmth in the potatoes adds a lot. We used Charlotte potatoes, and it's best to throw in more than you think you need - potato salad makes for great leftovers. Boil them till they are just fork-able.
 
 **Juliet**: I usually leave Matt in charge of all things meat and potatoes. He is a lot more knowledgable about which potatoes to use for what. And the charlotte potatoes were lovely. The only thing I helped with was finely dicing half a shallot (more on shallots later) and spooning some maynonnaise and sour cream over the potatoes along with some salt and pepper.
@@ -50,6 +54,14 @@ published: true
 **Matt**: And that's about all there is to that.
 
 ### Chimmichurri Steak
+
+* ![Chopping coriander](/images/chimmichurri/chopping-coriander.JPG)
+* ![Dicing Shallot](/images/chimmichurri/dicing-shallot.JPG)
+* ![Dicing garlic](/images/chimmichurri/dicing-garlic.JPG)
+* ![Dicing chilli](/images/chimmichurri/dicing-chilli.JPG)
+* ![Chimmichurri](/images/chimmichurri/chimmichurri.JPG)
+* ![Skirt steak and hot pan](/images/chimmichurri/skirt-steak-hot-pan.JPG)
+* ![Cooking skirt steak](/images/chimmichurri/cooking-skirt-steak.JPG)
 
 **Matt**: First up is to make the chimmichurri, and the eagle eyed amongst you may have noticed that this isn't a real chimmichurri, because we didn't use parsley. This may have been down to us forgetting which herb we were supposed to use, but I stand by the decision - the citrusy coriander mixes in really nicely with the vinegar and onion. But anyway, here's what we did for a pound and a half of steak:
 
@@ -65,7 +77,15 @@ Slap the steak down into the pan. We followed the [Heston approach](http://www.c
 
 **Juliet**: The wine, and also the salad. This was simple; just romaine lettuce, rocket and some lovely little red and orange tomatoes. For the dressing, I added just a little olive oil and the lime that we didn't need for the chimmichurri. and salt and pepper. 
 
+**Matt**: Once the meat was good and rested, we sliced it thinly across the grain and smothered it in the chimmichurri goodness.
+
 ### Overall
+
+* ![Skirt Steak with Chimmichurri - top view](/images/chimmichurri/skirt-steak-chimmichurri.JPG)
+* ![Skirt Steak with Chimmichurri - side view](/images/chimmichurri/skirt-steak-chimmichurri-side.JPG)
+* ![Leafy salad](/images/chimmichurri/leafy-salad.JPG)
+* ![Chimmichurri on table](/images/chimmichurri/chimmichurri-table.JPG)
+* ![Chimmichuri on plate](/images/chimmichurri/chimmichurri-plate.JPG)
 
 **Juliet**: It was delicious. There was complete silence when we sat down to eat, because we were both too busy stuffing food into our mouths to comment on how good it was. 
 

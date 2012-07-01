@@ -137,11 +137,17 @@ footer {
 
 section#content {
     .cf;
+    position: relative;
 
     .ing-fixed {
         position: fixed;
         top: 10px;
         margin-left: 640px;
+    }
+    .ing-bottom {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
     }
     .ingredients {
         width: 300px;
@@ -155,6 +161,19 @@ section#content {
 
     a {
         text-decoration: underline;
+    }
+}
+
+// img scroller
+
+.scroller-thumbs li {
+    display: inline-block;
+    width: 112px;
+    height: 84px;
+    overflow: hidden;
+
+    img {
+        width: 120px;
     }
 }
 
