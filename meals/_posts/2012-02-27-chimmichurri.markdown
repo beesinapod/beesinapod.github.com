@@ -6,7 +6,7 @@ main_pic:
 elements:
 - |
     ### Chimmichurri Steak
-    * Skirt steak (1 &frac14; lb)
+    * Skirt steak (1&frac14; lb)
     * Balsamic vinegar (about 100ml)
     * Echalion shallot
     * Half red chilli, diced, incl. seeds
