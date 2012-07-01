@@ -33,7 +33,7 @@
                 <h3>Archive</h3>
                 <ul>
                     {% for post in site.posts limit:5 %}
-                    <li><span>{{ post.date | date_to_string }}:</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    <li><span>{{ post.date | date_to_string }}: </span><a href="{{ post.url }}">{{ post.title }}</a></li>
                     {% endfor %}
                 </ul>
                 <h4><a title="See all posts" href="/archive">See all posts</a></h4>
