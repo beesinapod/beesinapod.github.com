@@ -2,6 +2,7 @@
 layout: base
 ---
 
+<article class="post">
 <section class="main">
 <h2 class="title">{{ page.title }}</h2>
 {% if page.main_pic %}
@@ -10,7 +11,7 @@ layout: base
 {{ content }}
 </section>
 
-<section class="ingredients">
+<section class="side">
     {% for element in page.elements %}
         {{ element | markdownify }}
     {% endfor %}

@@ -66,7 +66,6 @@ p {
 
 a {
     color: @off-white;
-    text-decoration: none;
 }
 
 em {
@@ -83,6 +82,7 @@ header {
 
     a {
         color: @off-black;
+        text-decoration: none;
     }
 }
 
@@ -95,23 +95,22 @@ footer {
     }
 }
 
-header div {
+header > div {
     width: 960px;
+    width: 940px;
+    padding: 10px 10px;
     margin: auto;
-
-    h1 {
-        padding: 10px;
-    }
 }
 
-footer div {
+footer > div {
     .cf;
-    width: 960px;
+    width: 940px;
+    padding: 10px 10px 20px;
     margin: auto;
     display: block;
 }
 
-section#content {
+#content {
     width: 940px;
     padding: 10px 10px 20px;
     margin: auto;
@@ -122,46 +121,40 @@ footer {
 
     .about-us {
         float: right;
-        width: 440px;
-        padding: 10px;
+        width: 300px;
     }
 
     .posts {
         float: left;
         width: 480px;
-        padding: 10px;
     }
 }
 
-// recipes
+// content pages
 
-section#content {
+article{
     .cf;
     position: relative;
+}
 
-    .ing-fixed {
-        position: fixed;
-        top: 10px;
-        margin-left: 640px;
-    }
-    .ing-bottom {
-        position: absolute;
-        bottom: 10px;
-        right: 10px;
-    }
-    .ingredients {
-        width: 300px;
-        float: right;
-    }
+.side-fixed {
+    position: fixed;
+    top: 10px;
+    margin-left: 640px;
+}
+.side-bottom {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.side {
+    width: 300px;
+    float: right;
+}
 
-    .main {
-        width: 600px;
-        float: left;
-    }
-
-    a {
-        text-decoration: underline;
-    }
+.main {
+    width: 600px;
+    float: left;
 }
 
 // img scroller
