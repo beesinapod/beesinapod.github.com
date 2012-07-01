@@ -1,3 +1,7 @@
+var imageScroller = {
+    current: null
+}
+
 function findImagesInLists(){
     // return lists containing images and inlineify the parents
     $('ul:has(li:has(img))').addClass('scroller-thumbs');
@@ -8,10 +12,32 @@ function switchImage(img){
     // change which image is shown in the lightbox
     $('.scroller-lightbox .image')
         .html($(img).clone());
+    imageScroller.current = img;
+    if ($(img).parent().prev().length) {
+        $('.scroller.left').css('display', 'block');
+    }
+    else {
+        $('.scroller.left').css('display', 'none');
+    }
+    if ($(img).parent().next().length) {
+        $('.scroller.right').css('display', 'block');
+    }
+    else {
+        $('.scroller.right').css('display', 'none');
+    }
 }
 
 function scrollGallery(dir){
     // scroll the lightbox (next or previous)
+    var img = imageScroller.current;
+    if (img) {
+        if (dir === 'left' && $(img).parent().prev().length) {
+            switchImage($(img).parent().prev().children()[0]);
+        }
+        else if (dir === 'right' && $(img).parent().next().length) {
+            switchImage($(img).parent().next().children()[0]);
+        }
+    }
 }
 
 function showLightbox(){
@@ -30,6 +56,9 @@ $(document).ready(function() {
     $('body')
     .append($('<div class="modal-overlay"></div>')
         .hide()
+        .click(function () {
+            hideLightbox();
+        })
     )
     .append($($('<div class="scroller-lightbox"></div>')
         .append($('<div class="scroller-lightbox-close-button"></div>')
@@ -37,15 +66,23 @@ $(document).ready(function() {
                 hideLightbox();
             })
         )
+        .append($('<div class="scroller left"></div>')
+            .click(function () {
+                scrollGallery('left');
+            })
+        )
+        .append($('<div class="scroller right"></div>')
+            .click(function () {
+                scrollGallery('right');
+            })
+        )
         .append($('<div class="image"></div>'))
         .hide()
     ));
 
-    var images = findImagesInLists();
+    findImagesInLists().click(function () {
+        switchImage(this);
+        showLightbox();
+    });
 
-    images
-        .click(function () {
-            switchImage(this);
-            showLightbox();
-        });
 });

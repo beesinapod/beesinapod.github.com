@@ -17,10 +17,11 @@
 
 .scroller-lightbox {
     position: fixed;
-    top: 50%;
+    top: 50px;
     left: 50%;
     width: 400px;
-    margin: -250px 0 0 -200px;  
+    height: 560px;
+    margin: 0 0 0 -200px;  
     padding: 0;  
     z-index: 55;
 }
@@ -32,4 +33,30 @@
     height: 40px;
     width: 40px;
     background: url('/static/js/image-scroller/img/close-button.png') no-repeat;
+}
+
+.scroller {
+    position: absolute;
+    top: 100px;
+    height: 100px;
+    width: 30px;
+    opacity: 0.5;
+    -moz-transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.scroller:hover {
+    opacity: 1;
+}
+
+.scroller.right {
+    background: url('/static/js/image-scroller/img/right-arrow.png') no-repeat;
+    right: 0;
+}
+
+.scroller.left {
+    background: url('/static/js/image-scroller/img/left-arrow.png') no-repeat;
+    left: 0;
 }
