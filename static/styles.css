@@ -41,4 +41,5 @@ article:before{content:"";display:table;}
 .side{width:300px;float:right;}
 .main{width:600px;float:left;}
 .scroller-thumbs li{display:inline-block;width:112px;height:84px;overflow:hidden;padding-right:4px;}.scroller-thumbs li img{width:120px;}
-.index-listing{width:600px;}.index-listing .date{display:block;padding-bottom:5px;}
+.index-listing{width:600px;}
+.post-date{display:block;padding-bottom:5px;}

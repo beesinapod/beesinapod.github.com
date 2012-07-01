@@ -1,2 +1,1 @@
 permalink: /:categories/:title 
-paginate: true

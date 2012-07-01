@@ -5,6 +5,7 @@ layout: base
 <article class="post">
 <section class="main">
 <h2 class="title">{{ page.title }}</h2>
+<span class="post-date">{{ page.date | date_to_string }}</span>
 {% if page.main_pic %}
     <img src="{{ page.main_pic }}" alt="{{ page.title }}">
 {% endif %}
