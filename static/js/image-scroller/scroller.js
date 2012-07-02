@@ -4,15 +4,27 @@ var imageScroller = {
 
 function findImagesInLists(){
     // return lists containing images and inlineify the parents
-    $('ul:has(li:has(img))').addClass('scroller-thumbs');
+    $(' ul:has(li:has(img))').addClass('scroller-thumbs');
     return $('ul li img');
 }
 
 function switchImage(img){
     // change which image is shown in the lightbox
     $('.scroller-lightbox .image')
-        .html($(img).clone());
+        .html($(img).clone())
+    // when the image loads, align the lightbox
+    $('.scroller-lightbox .image img').load(function () {
+        $('.scroller-lightbox')
+            .css(
+                'marginTop',
+                -$('.scroller-lightbox img').height()/2)
+            .css(
+                'marginLeft',
+                -$('.scroller-lightbox img').width()/2);
+    });
+    // remember the current image
     imageScroller.current = img;
+    // display the correct scroll arrows
     if ($(img).parent().prev().length) {
         $('.scroller.left').css('display', 'block');
     }

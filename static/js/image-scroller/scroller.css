@@ -17,11 +17,8 @@
 
 .scroller-lightbox {
     position: fixed;
-    top: 50px;
+    top: 50%;
     left: 50%;
-    width: 400px;
-    height: 560px;
-    margin: 0 0 0 -200px;  
     padding: 0;  
     z-index: 55;
 }
@@ -33,11 +30,17 @@
     height: 40px;
     width: 40px;
     background: url('/static/js/image-scroller/img/close-button.png') no-repeat;
+    opacity: 0.5;
+    -moz-transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
 }
 
 .scroller {
     position: absolute;
-    top: 100px;
+    top: 50%;
+    margin-top: -50px;
     height: 100px;
     width: 30px;
     opacity: 0.5;
@@ -47,7 +50,7 @@
     transition: opacity 0.5s;
 }
 
-.scroller:hover {
+.scroller:hover, .scroller-lightbox-close-button:hover {
     opacity: 1;
 }
 
