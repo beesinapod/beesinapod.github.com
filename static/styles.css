@@ -40,6 +40,6 @@ article:before{content:"";display:table;}
 .side-bottom{position:absolute;bottom:10px;right:0;}
 .side{width:300px;float:right;}
 .main{width:600px;float:left;}
-.scroller-thumbs li{display:inline-block;width:112px;height:84px;overflow:hidden;padding-right:4px;}.scroller-thumbs li img{width:120px;}
+.ltl-scroller-thumbs li{display:inline-block;width:112px;height:84px;overflow:hidden;padding-right:4px;}.ltl-scroller-thumbs li img{width:120px;}
 .index-listing{width:600px;}
 .post-date{display:block;padding-bottom:5px;}
