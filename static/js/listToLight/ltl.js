@@ -44,23 +44,6 @@ function listToLight(selector) {
             } else {
                 $('.ltl-scroller.right').css('display', 'none');
             }
-            $(document).keydown(function (e) {
-                // We don't need to worry about unbinding these events
-                // This is because hideLightbox() doesn't do anything of
-                // significance if the lightbox is already hidden, and
-                // scrollGallery() only scrolls if there's something to
-                // scroll to.
-                console.log(e.keyCode);
-                if (e.keyCode === 27) {
-                    that.hideLightbox();
-                }
-                if (e.keyCode === 37) {
-                    that.scrollGallery('left');
-                }
-                if (e.keyCode === 39) {
-                    that.scrollGallery('right');
-                }
-            });
         },
 
         scrollGallery: function (dir) {
@@ -119,6 +102,23 @@ function listToLight(selector) {
             this.findImagesInLists().click(function () {
                 that.switchImage(this);
                 that.showLightbox();
+            });
+            $(document).keydown(function (e) {
+                // We don't need to worry about unbinding these events
+                // This is because hideLightbox() doesn't do anything of
+                // significance if the lightbox is already hidden, and
+                // scrollGallery() only scrolls if there's something to
+                // scroll to.
+                console.log(e.keyCode);
+                if (e.keyCode === 27) {
+                    that.hideLightbox();
+                }
+                if (e.keyCode === 37) {
+                    that.scrollGallery('left');
+                }
+                if (e.keyCode === 39) {
+                    that.scrollGallery('right');
+                }
             });
         }
     };
