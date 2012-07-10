@@ -109,7 +109,6 @@ function listToLight(selector) {
                 // significance if the lightbox is already hidden, and
                 // scrollGallery() only scrolls if there's something to
                 // scroll to.
-                console.log(e.keyCode);
                 if (e.keyCode === 27) {
                     that.hideLightbox();
                 }
